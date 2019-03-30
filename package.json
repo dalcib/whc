@@ -1,0 +1,19 @@
+{
+  "name": "whc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^11.12.2",
+    "togeojson": "^0.16.0",
+    "tokml": "^0.4.0",
+    "ts-node": "^8.0.3",
+    "which-country": "^1.0.0"
+  }
+}
