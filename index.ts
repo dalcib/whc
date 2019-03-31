@@ -3,11 +3,6 @@ import fs from 'fs'
 import tokml from 'tokml'
 import whc from './whc.json'
 import { FeatureCollection, Point } from 'geojson'
-import d3 from 'd3-array'
-
-const arr = [1, 3, 2, 44, 3, 5, 4, 7, 6, 6, 9, 8]
-
-console.log(d3.max(arr))
 
 type Props = {
   name: string
